@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import Layout from './components/Layout/Layout';
 import DashBoard from './containers/DashBoard/DashBoard';
 import Appointments from './containers/Appointments/Appointments';
+import Patients from './containers/Patients/Patients';
+import Admin from './containers/Admin/Admin';
 import './App.css';
 
 class App extends Component {
@@ -12,8 +14,8 @@ class App extends Component {
     let routes = (
       <Switch>
         <Route path="/appointments" component={Appointments} />
-        <Route path="/patients" component={DashBoard} />
-        <Route path="/admin" component={DashBoard} />
+        <Route path="/patients" component={Patients} />
+        <Route path="/admin" component={Admin} />
         <Route path="/" exact component={DashBoard} />
         <Redirect to="/" />
       </Switch>

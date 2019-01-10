@@ -1,5 +1,36 @@
-h1 {
-    padding-top: 2em;
+h2 {
+    padding-top: 1em;
     text-align: center;
     margin: 0 auto;
 }
+
+th {
+    text-align: right; 
+}
+
+.column {
+    width: 30%;
+    border: 3px green solid;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+/* .row {
+    display: flex;
+    margin: 0 auto;
+}
+  
+.column {
+    flex: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  } */

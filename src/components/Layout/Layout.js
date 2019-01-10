@@ -9,7 +9,7 @@ class Layout extends Component {
       return (
         <Aux>
           <Toolbar />
-          <main className={classes.Content}>{this.props.children}</main>
+          <main className="Content">{this.props.children}</main>
         </Aux>
       );
     };
