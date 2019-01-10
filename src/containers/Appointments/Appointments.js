@@ -3,16 +3,16 @@ import { Redirect, withRouter } from 'react-router-dom';
 // import { connect } from 'react-redux';
 
 import Aux from '../../hoc/Aux';
-import './DashBoard.css';
+import './Appointments.css';
 
-class DashBoard extends Component {
+class Appointments extends Component {
     render() {
-        return(
+        return (
             <Aux>
-                <h1>Test DashBoard</h1>
+                <h1>Test Appointments</h1>
             </Aux>
         );
     }
 }
 
-export default withRouter(DashBoard);
+export default withRouter(Appointments);

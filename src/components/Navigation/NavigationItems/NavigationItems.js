@@ -8,6 +8,9 @@ import './NavigationItems.css';
 const navigationItems = (props) => (
   <ul className="NavigationItems">
     <NavigationItem link="/" exact>Dash Board</NavigationItem>
+    <NavigationItem link="/appointments">Appointments</NavigationItem>
+    <NavigationItem link="/patients">Patients</NavigationItem>
+    <NavigationItem link="/admin">Admin</NavigationItem>
   </ul>
 );
 
