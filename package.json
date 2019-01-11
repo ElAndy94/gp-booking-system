@@ -4,6 +4,10 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "fullcalendar": "^4.0.0-alpha.3",
+    "fullcalendar-scheduler": "^4.0.0-alpha.3",
+    "jquery": "^3.3.1",
+    "moment": "^2.23.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "^6.0.0",

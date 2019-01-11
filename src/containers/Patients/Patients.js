@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Redirect, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
+// Redirect,
 // import { connect } from 'react-redux';
 
 import Aux from '../../hoc/Aux';
