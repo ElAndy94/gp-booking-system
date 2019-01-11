@@ -8,29 +8,19 @@ th {
     text-align: right; 
 }
 
-.column {
-    width: 30%;
-    border: 3px green solid;
-    margin: 10px;
-    display: inline-block;
-    text-align: center;
-}
-.container {
-    margin: auto;
-    text-align: center;
+.pad-under {
+    padding-bottom: 0.25em;
 }
 
-/* .row {
-    display: flex;
-    margin: 0 auto;
-}
-  
-.column {
-    flex: 50%;
+.title-pad-top {
+    padding-top: 1em;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  } */
+#title-pad-left {
+    padding-left: 0.5em;
+    /* font-weight: 600; */
+}
+
+#col-pad-top {
+    padding-top: 2em;
+}

@@ -29,7 +29,7 @@ class Appointments extends Component {
         });
         return (
             <Aux>
-                <h1>Test Appointments</h1>
+                {/* <h1>Test Appointments</h1> */}
                 <div className="smaller-calendar">
                     <div id="calendar"></div>
                 </div>
