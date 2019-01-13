@@ -9,5 +9,6 @@
         "pylint_django"
     ],
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.linting.pep8Args": ["--ignore=E501"]
 }
