@@ -11,6 +11,7 @@ import Aux from '../../hoc/Aux';
 import './Appointments.css';
 
 class Appointments extends Component {
+
     render() {
         document.addEventListener('DOMContentLoaded', function() {
             let calendarEl = document.getElementById('calendar');

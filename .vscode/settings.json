@@ -1,7 +1,7 @@
 {
     "git.ignoreLimitWarning": true,
     "team.showWelcomeMessage": false,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "python.linting.pep8Enabled": true,
     "python.linting.pylintPath": "/path/to/pylint",
     "python.linting.pylintArgs": [
