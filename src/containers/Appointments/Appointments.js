@@ -13,7 +13,7 @@ import './Appointments.css';
 class Appointments extends Component {
 
     render() {
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', () => {
             let calendarEl = document.getElementById('calendar');
             let calendar = new Calendar(calendarEl, {
                 weekends: false,
