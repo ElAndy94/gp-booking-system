@@ -44,7 +44,14 @@ class Patients extends Component {
           });
         return(
             <Aux>
-                <h1>Test Patients</h1>
+                <div className="container">
+                    <h1>Test Patients</h1>
+                    <div className="field">
+                        <div className="control">
+                            <input className="input" type="text" placeholder="Search Patient" />
+                        </div>
+                    </div>
+                </div>
                 {Patients}
             </Aux>
         );

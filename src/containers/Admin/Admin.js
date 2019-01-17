@@ -45,8 +45,10 @@ class Admin extends Component {
           });
             return (
                 <Aux>
-                    <h1>Patients Registered</h1>
-                    {Patients}
+                    <div className="container">
+                        <h1>Patients Registered</h1>
+                        {Patients}
+                    </div>
                 </Aux>
             );
     }
