@@ -27,4 +27,4 @@ const patient = (props) => (
     </div>
 );
 
-export default patient;
+export default patient; 

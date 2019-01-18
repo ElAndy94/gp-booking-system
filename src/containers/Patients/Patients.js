@@ -8,19 +8,22 @@ import './Patients.css';
 import Patient from '../../components/Patient/Patient';
 
 class Patients extends Component {
-    state = {
-        patients:[
-            {
-                title: 'Mr',
-                firstName: 'Andrew',
-                lastName: 'Peliza'
-            }, 
-            {
-                title: 'Mr',
-                firstName: 'Charles',
-                lastName: 'Nico'
-            }
-        ]
+    constructor(props){
+        super(props);
+        this.state = {
+            patients:[
+                {
+                    title: 'Mr',
+                    firstName: 'Andrew',
+                    lastName: 'Peliza'
+                }, 
+                {
+                    title: 'Mr',
+                    firstName: 'Charles',
+                    lastName: 'Nico'
+                }
+            ]
+        }
     }
 
     // componentDidMount() {
