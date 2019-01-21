@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 // Redirect,
 import { Calendar } from 'fullcalendar';
-// import $ from 'jquery';
-// import 'fullcalendar';
-
 // import { connect } from 'react-redux';
 
 import Aux from '../../hoc/Aux';
@@ -30,7 +27,6 @@ class Appointments extends Component {
         });
         return (
             <Aux>
-                {/* <h1>Test Appointments</h1> */}
                 <div className="smaller-calendar">
                     <div id="calendar"></div>
                 </div>

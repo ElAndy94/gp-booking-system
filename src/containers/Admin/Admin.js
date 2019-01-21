@@ -47,6 +47,11 @@ class Admin extends Component {
                 <Aux>
                     <div className="container">
                         <h1>Patients Registered</h1>
+                        <div className="field">
+                            <div className="control">
+                                <input className="input" type="text" placeholder="Search Patient" />
+                            </div>
+                        </div>
                         {Patients}
                     </div>
                 </Aux>

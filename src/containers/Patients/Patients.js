@@ -54,8 +54,8 @@ class Patients extends Component {
                             <input className="input" type="text" placeholder="Search Patient" />
                         </div>
                     </div>
+                    {Patients}
                 </div>
-                {Patients}
             </Aux>
         );
     }
